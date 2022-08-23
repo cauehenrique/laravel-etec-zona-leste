@@ -1,19 +1,23 @@
 <?php
 
+use App\Models\NavbarAnchor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
+Route::get('/navbar-anchors', function () {
+    return NavbarAnchor::all();
+});
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::get('/navbar-anchors/{id}', function (string $id) {
+    $anchor = NavbarAnchor::find(intval($id));
+    return $anchor;
+});
+
+Route::post('/navbar-anchors', function (Request $request) {
+    $anchor = NavbarAnchor::create([
+        'title' => $request->title,
+        'href' => $request->href
+    ]);
+
+    return $anchor;
 });

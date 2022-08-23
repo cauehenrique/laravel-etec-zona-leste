@@ -1,0 +1,11 @@
+GET http://localhost:8000/api/navbar-anchors
+###
+GET http://localhost:8000/api/navbar-anchors/2
+###
+POST http://localhost:8000/api/navbar-anchors
+Content-Type: application/json
+
+{
+    "title": "JEFERSON",
+    "href": "asdasdasdasd"
+}
