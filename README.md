@@ -2,6 +2,14 @@
 
 ETEC Zona Leste's official website made with Laravel
 
+# Development Setup
+```bash
+git clone https://github.com/cauehenrique/laravel-etec-zona-leste.git
+cd laravel-etec-zona-leste
+composer install
+npm install
+```
+
 ## Models
 
 _NavbarAnchor_
