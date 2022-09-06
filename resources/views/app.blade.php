@@ -6,7 +6,7 @@
         <title>ETEC Zona Leste</title>
         @vite('resources/css/app.css')
         @viteReactRefresh
-        @vite('resources/js/app.js')
+        @vite('resources/js/index.js')
     </head>
     <body>
         <div id="app"></div>
