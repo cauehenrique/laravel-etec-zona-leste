@@ -10,17 +10,17 @@ export default function HomePage() {
 	}, [])
 
 	return (
-		<div className="h-screen w-screen">
-			{/* {response && <Example value={response[0].title} />}  */}
-			<nav className="h-[10%] w-screen bg-gray-800">
-				<div className="mx-auto"></div>
-			</nav>
-			{response &&
-				response.map(({ id, title }) => (
-					<h1 className="" key={id}>
-						{title}
-					</h1>
-				))}
+		<div className="m-0 flex">
+			<div className="h-screen bg-gray-600 flex flex-col p-4 divide-x-4">
+				<div className="divide-y">
+					<img
+						className="object-cover w-28 mr-24"
+						src="https://yt3.ggpht.com/ytc/AMLnZu-9lToKfZByYACsoOPzQnckD9O7hJVJRrWaZKZQ5Q=s900-c-k-c0x00ffffff-no-rj"
+					/>
+				</div>
+				<div className="divide-y"></div> {/*Parte dos cursos*/}
+			</div>
+			<div className=""></div>
 		</div>
 	)
 }
