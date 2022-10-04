@@ -3,8 +3,8 @@ import NewUnit from "./NewUnit"
 
 export default function News() {
 	return (
-		<div className="flex justify-center p-4 py-8">
-			<div className="flex space-x-8">
+		<div className="py-8">
+			<div className="grid gap-4 grid-cols-3">
 				<NewUnit
 					image="https://i.ytimg.com/vi/HDUT3DwQb0Y/maxresdefault.jpg"
 					title="Conheça a nossa unidade com um vídeo"
