@@ -6,7 +6,7 @@ import YoutubeIcon from "../components/YoutubeIcon"
 
 export default function TopBar() {
 	return (
-		<div className="w-full h-min border-b border-b-neutral-200 p-2 px-16 flex items-center justify-between">
+		<div className="w-full h-min border-b border-b-neutral-200 border-t-4 border-t-sky-700 p-2 px-16 flex items-center justify-between">
 			<div className="flex justify-center w-full">
 				<p className="">(11) 99999-9999</p>
 			</div>
@@ -14,7 +14,7 @@ export default function TopBar() {
 				<a
 					target="_blank"
 					href="https://www.instagram.com/"
-					className="bg-yellow-100 hover:bg-yellow-200 rounded-md p-1"
+					className="bg-yellow-200 hover:bg-yellow-300 rounded-md p-1"
 				>
 					<InstagramIcon />
 				</a>

@@ -5,11 +5,16 @@ import {
 	PencilSquareIcon,
 	ChatBubbleLeftEllipsisIcon,
 	CalendarIcon,
+	AcademicCapIcon,
+	ClockIcon,
+	BriefcaseIcon,
+	ClipboardDocumentCheckIcon,
+	UserGroupIcon,
 } from "@heroicons/react/24/outline"
 
 export default function Sidebar() {
 	return (
-		<div className="h-screen flex flex-col divide-y border-r-2">
+		<div className="h-100% flex flex-col divide-y border-r-2">
 			<a href="/">
 				<img
 					className="object-cover w-28 mr-36 mt-2 c ml-2"
@@ -28,14 +33,39 @@ export default function Sidebar() {
 					title="Vestibulinho"
 				/>
 				<SideBarLink
-					to="/about"
-					icon={<ChatBubbleLeftEllipsisIcon className="w-6 h-6" />}
-					title="Contato"
+					to="/sobreNos"
+					icon={<AcademicCapIcon className="w-6 h-6" />}
+					title="Sobre Nós"
+				/>
+				<SideBarLink
+					to="/horarios"
+					icon={<ClockIcon className="w-6 h-6" />}
+					title="Horários"
 				/>
 				<SideBarLink
 					to="/calendario"
 					icon={<CalendarIcon className="w-6 h-6" />}
 					title="Calendário"
+				/>
+				<SideBarLink
+					to="/estagios"
+					icon={<BriefcaseIcon className="w-6 h-6" />}
+					title="Estágios"
+				/>
+				<SideBarLink
+					to="/about"
+					icon={<ChatBubbleLeftEllipsisIcon className="w-6 h-6" />}
+					title="Contato"
+				/>
+				<SideBarLink
+					to="/processos"
+					icon={<ClipboardDocumentCheckIcon className="w-6 h-6" />}
+					title="Processos"
+				/>
+				<SideBarLink
+					to="/departamentos"
+					icon={<UserGroupIcon className="w-6 h-6" />}
+					title="Departamentos"
 				/>
 				<p className="text-[2px] absolute bottom-0 left-0">eu moido OwO</p>
 			</div>
