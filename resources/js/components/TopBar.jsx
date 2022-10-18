@@ -6,7 +6,7 @@ import YoutubeIcon from "../components/YoutubeIcon"
 
 export default function TopBar() {
 	return (
-		<div className="w-full h-min border-b border-b-neutral-200 border-t-4 border-t-sky-700 p-2 px-16 flex items-center justify-between">
+		<div className="w-full h-min border-b border-b-neutral-200 border-t-4 border-t-sky-700 p-2 px-16 flex items-center justify-between bg-blue-50">
 			<div className="flex justify-center w-full">
 				<p className="">(11) 99999-9999</p>
 			</div>
