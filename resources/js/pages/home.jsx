@@ -23,7 +23,7 @@ export default function HomePage() {
 				<Sidebar />
 				<div className="flex flex-col w-full">
 					<TopBar />
-					<div className="p-24 py-6 w-full max-w-screen-xl mx-auto mb-24">
+					<div className="p-24 py-6 w-full max-w-screen-xl mx-auto mb-12">
 						<AdBanner />
 						<ModernArtBanner />
 						<News />
