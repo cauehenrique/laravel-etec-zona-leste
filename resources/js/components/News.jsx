@@ -16,7 +16,7 @@ export default function News() {
 					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 				/>
 				<NewUnit
-					image="https://scontent-gru2-2.xx.fbcdn.net/v/t39.30808-6/309460974_781319376512415_4545906539753364646_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=k4QB0oYMH-YAX9bG8GD&_nc_ht=scontent-gru2-2.xx&oh=00_AT-LbsZlIdh-GlW2rssSMpDh-eqYV4u2T7dcvVxDNef4wQ&oe=63545694"
+					image="https://fatweb.s3.amazonaws.com/vestibulinhoetec/assets/img/layout/1sem23/og-image.jpg"
 					title="Vestibulinho 1° semestre 2023"
 					description="Começa nesta segunda-feira (17), o período para solicitar a redução de 50% do valor da inscrição do Vestibulinho das Etecs para o 1º semestre de 2023.	"
 				/>
