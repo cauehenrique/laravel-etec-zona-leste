@@ -15,10 +15,10 @@ export default function MainHorarios() {
 			<div className="flex space-x-6 mb-12">
 				<TimeBox
 					title={"MANHÃ:"}
-					caption={"Técnico: 7:40h - 12:05h"}
-					caption2={"NOVOTEC: 7:30h - 12:45h"}
+					caption={"Técnico: 7:40 - 12:05"}
+					caption2={"NOVOTEC: 7:30 - 12:45"}
 				/>
-				<TimeBox title={"TARDE:"} caption={"NOVOTEC: 13:00h - 18:15h"} />
+				<TimeBox title={"TARDE:"} caption={"NOVOTEC: 13:00 - 18:15"} />
 				<TimeBox title={"NOITE:"} caption={"Técnico: 19:00 - 23:01"} />
 			</div>
 			<div className="w-full grid grid-cols-2 gap-8">
@@ -28,7 +28,9 @@ export default function MainHorarios() {
 					<HorariosLinkMedio />
 				</div>
 				<div className="w-full flex justify-center">
-					<div className="h-[250px] w-[300px] bg-gray-400"></div>
+					<div className="h-[250px] w-[300px] bg-gray-400">
+						Colocar o calendário aqui
+					</div>
 				</div>
 			</div>
 		</div>
