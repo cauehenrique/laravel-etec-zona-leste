@@ -17,13 +17,13 @@ export default function Processos() {
 						<MainProcessos />
 						<div className="flex 2xl:space-between flex-wrap 2xl:mx-auto justify-center items-start">
 							<ProcessBox
-								color="bg-red-500"
+								color="bg-red-600"
 								title="Edital Nº 211/06/2022 - PROCESSO Nº 2022/10043"
 								description="Aplicativos Informatizados (para a Habilitação Administração)"
 							/>
 
 							<ProcessBox
-								color="bg-indigo-500"
+								color="bg-indigo-600"
 								title="Edital Nº 211/09/2022 – PROCESSO Nº 2022/10054"
 								description="Língua Portuguesa, Literatura e Comunicação Profissional
 
@@ -31,26 +31,26 @@ export default function Processos() {
 							/>
 
 							<ProcessBox
-								color="bg-red-500"
+								color="bg-red-600"
 								title="Edital Nº 211/08/2022 – PROCESSO Nº 2022/10049"
 								description="Administração de Recursos Humanos
 							(Administração)"
 							/>
 
 							<ProcessBox
-								color="bg-emerald-500"
+								color="bg-emerald-600"
 								title="Edital Nº 211/06/2022 - PROCESSO Nº 2022/10043"
 								description="Aplicativos Informatizados (para a Habilitação Administração)"
 							/>
 
 							<ProcessBox
-								color="bg-red-500"
+								color="bg-red-600"
 								title="Edital Nº 211/06/2022 - PROCESSO Nº 2022/10043"
 								description="Aplicativos Informatizados (para a Habilitação Administração)"
 							/>
 
 							<ProcessBox
-								color="bg-red-500"
+								color="bg-red-600"
 								title="Edital Nº 211/06/2022 - PROCESSO Nº 2022/10043"
 								description="Aplicativos Informatizados (para a Habilitação Administração)"
 							/>
