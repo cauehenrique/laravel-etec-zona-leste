@@ -14,7 +14,7 @@ import {
 
 export default function Sidebar() {
 	return (
-		<div className="h-100% flex flex-col divide-y border-r-2">
+		<div className="h-100% flex flex-col divide-y border-r-2 bg-sky-50">
 			<a href="/">
 				<img
 					className="object-cover w-28 mr-36 mt-2 c ml-2"
