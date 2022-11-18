@@ -45,7 +45,7 @@ export default function Sidebar() {
 				<SideBarLink
 					to="/calendario"
 					icon={<CalendarIcon className="w-6 h-6" />}
-					title="Calendário"
+					title="Calendários"
 				/>
 				<SideBarLink
 					to="/estagios"

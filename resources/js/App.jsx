@@ -10,6 +10,7 @@ import Horarios from "./pages/horarios"
 import Estagios from "./pages/estagios"
 import Processos from "./pages/processos"
 import Departamentos from "./pages/departamentos"
+import Calendario from "./pages/calendario"
 
 export default function App() {
 	return (
@@ -22,6 +23,7 @@ export default function App() {
 			<Route path="/estagios" element={<Estagios />} />
 			<Route path="/processos" element={<Processos />} />
 			<Route path="/departamentos" element={<Departamentos />} />
+			<Route path="/calendario" element={<Calendario />} />
 		</Routes>
 	)
 }
