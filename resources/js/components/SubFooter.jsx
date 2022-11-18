@@ -8,7 +8,7 @@ export default function SubFooter() {
 	return (
 		<div className="flex justify-center align-middle w-full pt-6">
 			<div className="flex flex-col justify-center items-center space-y-6">
-				<div className="flex space-between space-x-16">
+				<div className="flex space-x-16">
 					<Link to="/sobreNos" className="">
 						Sobre
 					</Link>
@@ -22,7 +22,7 @@ export default function SubFooter() {
 						Departamentos
 					</Link>
 				</div>
-				<div className="flex space-between space-x-6">
+				<div className="flex space-x-6">
 					<a
 						target="_blank"
 						href="https://www.instagram.com/"

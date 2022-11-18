@@ -10,6 +10,7 @@ import {
 	BriefcaseIcon,
 	ClipboardDocumentCheckIcon,
 	UserGroupIcon,
+	ClipboardDocumentListIcon,
 } from "@heroicons/react/24/outline"
 
 export default function Sidebar() {
@@ -66,6 +67,11 @@ export default function Sidebar() {
 					to="/departamentos"
 					icon={<UserGroupIcon className="w-6 h-6" />}
 					title="Departamentos"
+				/>
+				<SideBarLink
+					to="/vagasRemanescentes"
+					icon={<ClipboardDocumentListIcon className="w-6 h-6" />}
+					title="Vagas Remanescentes"
 				/>
 				<p className="text-[2px] absolute bottom-0 left-0">eu moido OwO</p>
 			</div>

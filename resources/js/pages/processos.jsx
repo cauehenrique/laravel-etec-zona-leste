@@ -15,7 +15,7 @@ export default function Processos() {
 					<TopBar />
 					<div className="flex flex-col px-12 py-6 w-full mb-12">
 						<MainProcessos />
-						<div className="flex 2xl:space-between flex-wrap 2xl:mx-auto justify-center items-start">
+						<div className="flex flex-wrap mx-auto justify-center items-start">
 							<ProcessBox
 								color="bg-red-600"
 								title="Edital Nº 211/06/2022 - PROCESSO Nº 2022/10043"

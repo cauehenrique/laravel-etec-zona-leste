@@ -13,7 +13,7 @@ export default function SobreNos() {
 				<Sidebar />
 				<div className="flex flex-col w-full">
 					<TopBar />
-					<div className="flex p-8 pr-0 py-6 w-full max-w-screen-xl mx-auto mb-12 space-between space-x-8">
+					<div className="flex p-8 pr-0 py-6 w-full max-w-screen-xl mx-auto mb-12 space-x-8">
 						<Main />
 						<AdBanner />
 					</div>

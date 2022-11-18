@@ -15,7 +15,7 @@ export default function Estagios() {
 					<TopBar />
 					<div className="flex flex-col px-12 py-6 w-full mb-12">
 						<MainEstagios />
-						<div className="flex 2xl:space-between flex-wrap 2xl:mx-auto justify-center items-start">
+						<div className="flex flex-wrap 2xl:mx-auto justify-center items-start">
 							<EstagiosBox
 								color="bg-rose-600"
 								title="VAGA PARA ASSISTENTE ADMINISTRATIVO"
