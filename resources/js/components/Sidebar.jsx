@@ -12,14 +12,15 @@ import {
 	UserGroupIcon,
 	ClipboardDocumentListIcon,
 } from "@heroicons/react/24/outline"
+import LogoEtec from "../images/logo-etec.png"
 
 export default function Sidebar() {
 	return (
-		<div className="h-100% flex flex-col divide-y border-r-2 bg-sky-50">
-			<a href="/">
+		<div className="h-100% flex flex-col divide-y border-r-2 border-zinc-200 bg-sky-50">
+			<a href="/" className="w-fit border-b-2 border-zinc-200">
 				<img
-					className="object-cover w-28 mr-36 mt-2 c ml-2"
-					src="https://yt3.ggpht.com/ytc/AMLnZu-9lToKfZByYACsoOPzQnckD9O7hJVJRrWaZKZQ5Q=s900-c-k-c0x00ffffff-no-rj"
+					className="object-cover w-32 mr-36 mt-2 mb-4 ml-2"
+					src={LogoEtec}
 				/>
 			</a>
 			<div className="flex flex-col p-2 mb">
