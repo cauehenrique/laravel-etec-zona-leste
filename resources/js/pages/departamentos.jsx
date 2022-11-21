@@ -16,7 +16,7 @@ export default function Departamentos() {
 				<div className="flex flex-col w-full">
 					<TopBar />
 					<div className="flex flex-col items-center px-12 py-6 w-full mb-12">
-						<div className="flex flex-col items-center w-5/6 border rounded-xl shadow-md mb-12">
+						<div className="flex flex-col items-center w-5/6 border rounded-xl mb-12">
 							<div className="w-full flex border-b-2 items-center">
 								<h1 className="text-3xl w-full font-bold subpixel-antialiased text-center mg-6 px-12 py-4">
 									DIRETORIA ACADÊMICA - SECRETARIA
@@ -69,7 +69,7 @@ export default function Departamentos() {
 							</div>
 						</div>
 
-						<div className="flex flex-col items-center w-5/6 border rounded-xl shadow-md mb-12">
+						<div className="flex flex-col items-center w-5/6 border rounded-xl mb-12">
 							<div className="w-full flex border-b-2 items-center">
 								<h1 className="text-3xl w-full font-bold subpixel-antialiased text-center mg-6 px-12 py-4">
 									DIRETORIA DE SERVIÇOS ADMINISTRATIVOS
@@ -105,7 +105,7 @@ export default function Departamentos() {
 							</div>
 						</div>
 
-						<div className="flex flex-col items-center w-5/6 border rounded-xl shadow-md mb-12">
+						<div className="flex flex-col items-center w-5/6 border rounded-xl mb-12">
 							<div className="w-full flex border-b-2 items-center">
 								<h1 className="text-3xl w-full font-bold subpixel-antialiased text-center mg-6 px-12 py-4">
 									DIREÇÃO
@@ -135,6 +135,68 @@ export default function Departamentos() {
 										<ContactBox
 											icon={<EnvelopeIcon className="h-8 w-8" />}
 											description="e211adm@cps.sp.gov.br"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div className="flex flex-col items-center w-5/6 border rounded-xl mb-12">
+							<div className="w-full mb-8">
+								<div className="w-full flex border-b-2 items-center">
+									<h1 className="text-3xl w-full font-bold subpixel-antialiased text-center mg-6 px-12 py-4">
+										COORDENAÇÃO
+									</h1>
+								</div>
+								<div className="px-16 py-12 pb-2 mb-8 w-full grid grid-cols-2">
+									<div className="w-full flex items-start justify-center">
+										<div className="w-5/6 flex flex-col items-center">
+											<h1 className="text-3xl font-bold mb-8">NOVOTEC</h1>
+											<div className="w-full space-y-4">
+												<DepartamentosSubBox
+													title="Coordenador NOVOTEC Administração"
+													description="Uillicre Jaquison da Silva"
+												/>
+												<DepartamentosSubBox
+													title="Coordenador NOVOTEC Administração"
+													description="Uillicre Jaquison da Silva"
+												/>
+												<DepartamentosSubBox
+													title="Coordenador NOVOTEC Administração"
+													description="Uillicre Jaquison da Silva"
+												/>
+											</div>
+										</div>
+									</div>
+									<div className="w-full flex items-start justify-center">
+										<div className="w-5/6 flex flex-col items-center justify-center">
+											<h1 className="text-3xl font-bold mb-8">TÉCNICO</h1>
+											<div className="w-full space-y-4">
+												<DepartamentosSubBox
+													title="Coordenador Técnico em Administração"
+													description="Giovanna Lettieri"
+												/>
+												<DepartamentosSubBox
+													title="Coordenador Técnico em Contabilidade/Serviços Jurídicos"
+													description="Rogério Bezerra Costa"
+												/>
+												<DepartamentosSubBox
+													title="Coordenador Técnico em Desenvolvimento de Sistemas"
+													description="Carlos Alberto Pereira da Silva"
+												/>
+												<DepartamentosSubBox
+													title="Coordenador Técnico em Logística"
+													description="Uillicre Jaquison da Silva"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="flex w-full justify-center">
+									<div className="w-full flex flex-wrap justify-center">
+										<ContactBox
+											icon={<PhoneIcon className="h-8 w-8" />}
+											description="(11) 2045-4018"
 										/>
 									</div>
 								</div>
