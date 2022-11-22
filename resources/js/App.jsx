@@ -12,6 +12,8 @@ import Processos from "./pages/processos"
 import Departamentos from "./pages/departamentos"
 import Calendario from "./pages/calendario"
 import VagasRemanescentes from "./pages/vagasRemanescentes"
+import CursosDS from "./pages/cursosDS"
+import CursosADM from "./pages/cursosADM"
 
 export default function App() {
 	return (
@@ -26,6 +28,11 @@ export default function App() {
 			<Route path="/departamentos" element={<Departamentos />} />
 			<Route path="/calendario" element={<Calendario />} />
 			<Route path="/vagasRemanescentes" element={<VagasRemanescentes />} />
+			<Route
+				path="/cursos/desenvolvimento-de-sistemas"
+				element={<CursosDS />}
+			/>
+			<Route path="/cursos/administracao" element={<CursosADM />} />
 		</Routes>
 	)
 }

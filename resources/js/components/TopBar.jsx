@@ -8,7 +8,12 @@ export default function TopBar() {
 	return (
 		<div className="w-full h-min border-b border-b-neutral-200 p-2 px-16 flex items-center justify-between bg-sky-50">
 			<div className="flex justify-center w-full">
-				<p className="">(11) 99999-9999</p>
+				<a
+					href="https://www.vestibulinhoetec.com.br/home/"
+					className="text-sky-600"
+				>
+					Acesse o site do vestibulinho clicando aqui!
+				</a>
 			</div>
 			<div className="space-x-2 flex">
 				<a
