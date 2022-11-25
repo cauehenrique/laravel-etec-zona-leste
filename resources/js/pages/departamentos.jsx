@@ -114,23 +114,19 @@ export default function Departamentos() {
 							<div className="px-16 py-12 pb-2 mb-8 flex flex-col items-center w-full">
 								<div className="grid grid-cols-2 grid-flow-row auto-rows-max gap-10 gap-y-8 w-full mb-8">
 									<DepartamentosSubBox
-										title="Diretora de Serviços Administrativos"
-										description="Dagmar Ferreira"
+										title="Diretor"
+										description="Elpídio de Araujo"
 									/>
 									<DepartamentosSubBox
-										title="Assessor Administrativo"
-										description="Jeferson Carmo"
+										title="Assessor Técnico Administrativo II"
+										description="Patrick Moreno da Silva"
 									/>
 								</div>
 								<div className="flex w-full justify-center">
 									<div className="w-full flex flex-wrap justify-between">
 										<ContactBox
 											icon={<PhoneIcon className="h-8 w-8" />}
-											description="(11) 2045-4028"
-										/>
-										<ContactBox
-											icon={<PhoneIcon className="h-8 w-8" />}
-											description="(11) 2045-4003"
+											description="(11) 2045-4018"
 										/>
 										<ContactBox
 											icon={<EnvelopeIcon className="h-8 w-8" />}
@@ -158,12 +154,12 @@ export default function Departamentos() {
 													description="Uillicre Jaquison da Silva"
 												/>
 												<DepartamentosSubBox
-													title="Coordenador NOVOTEC Administração"
-													description="Uillicre Jaquison da Silva"
+													title="Coordenador NOVOTEC  Desenvolvimento de Sistemas"
+													description="Rogério Bezerra Costa"
 												/>
 												<DepartamentosSubBox
-													title="Coordenador NOVOTEC Administração"
-													description="Uillicre Jaquison da Silva"
+													title="Coordenador NOVOTEC Logística"
+													description="Leandro Pedroza de Nóbrega"
 												/>
 											</div>
 										</div>

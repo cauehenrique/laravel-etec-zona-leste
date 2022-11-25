@@ -5,7 +5,7 @@ export default function calendarioBox({ title, link, image }) {
 		<a
 			href={link}
 			target="_blank"
-			className="w-5/12 flex rounded-lg border items-center"
+			className="w-5/12 flex rounded-lg border items-center bg-zinc-100"
 		>
 			<img
 				src={image}

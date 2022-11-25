@@ -19,21 +19,21 @@ export default function TopBar() {
 				<a
 					target="_blank"
 					href="https://www.instagram.com/"
-					className="bg-yellow-200 hover:bg-yellow-300 rounded-md p-1"
+					className="bg-yellow-200 hover:bg-yellow-300 rounded-full p-1"
 				>
 					<InstagramIcon />
 				</a>
 				<a
 					target="_blank"
 					href="https://www.youtube.com/"
-					className="bg-red-200 hover:bg-red-300 rounded-md p-1"
+					className="bg-red-200 hover:bg-red-300 rounded-full p-1"
 				>
 					<YoutubeIcon />
 				</a>
 				<a
 					target="_blank"
 					href="https://www.facebook.com/"
-					className="bg-sky-200 hover:bg-sky-300 rounded-md p-1"
+					className="bg-sky-200 hover:bg-sky-300 rounded-full p-1"
 				>
 					<FacebookIcon />
 				</a>
