@@ -55,11 +55,6 @@ export default function Sidebar() {
 					title="Estágios"
 				/>
 				<SideBarLink
-					to="/about"
-					icon={<ChatBubbleLeftEllipsisIcon className="w-6 h-6" />}
-					title="Contato"
-				/>
-				<SideBarLink
 					to="/processos"
 					icon={<ClipboardDocumentCheckIcon className="w-6 h-6" />}
 					title="Processos"
