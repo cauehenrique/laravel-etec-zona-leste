@@ -16,7 +16,7 @@ import LogoEtec from "../images/logo-etec.png"
 
 export default function Sidebar() {
 	return (
-		<div className="h-100% flex flex-col divide-y border-r border-zinc-200 bg-slate-100">
+		<div className="h-100% flex flex-col divide-y border-r border-zinc-200">
 			<a href="/" className="w-fit border-b border-zinc-200">
 				<img
 					className="object-cover w-32 mr-36 mt-2 mb-4 ml-2"
