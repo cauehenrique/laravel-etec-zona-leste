@@ -7,7 +7,7 @@ export default function HorariosLinkMedio() {
 			<h2 className="text-md mb-1">
 				CURSOS TÉCNICOS INTEGRADOS AO ENSINO MÉDIO:
 			</h2>
-			<div className="text-blue-400 flex flex-col">
+			<div className="text-blue-500 flex flex-col">
 				<Link to="/cursos">
 					<span className="font-bold">•</span> Desenvolvimento de Sistemas
 				</Link>

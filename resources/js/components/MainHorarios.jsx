@@ -21,16 +21,11 @@ export default function MainHorarios() {
 				<TimeBox title={"TARDE:"} caption={"NOVOTEC: 13:00 - 18:15"} />
 				<TimeBox title={"NOITE:"} caption={"Técnico: 19:00 - 23:01"} />
 			</div>
-			<div className="w-full grid grid-cols-2 gap-8">
+			<div className="w-full">
 				<div className="">
 					<h1 className="text-3xl mb-4">Horário das Aulas:</h1>
 					<HorariosLinkTecnicos />
 					<HorariosLinkMedio />
-				</div>
-				<div className="w-full flex justify-center">
-					<div className="h-[250px] w-[300px] bg-gray-400">
-						Colocar o calendário aqui
-					</div>
 				</div>
 			</div>
 		</div>

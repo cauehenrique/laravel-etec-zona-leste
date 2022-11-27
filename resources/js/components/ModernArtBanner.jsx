@@ -11,6 +11,7 @@ export default function ModernArtBanner() {
 			<h1 className="text-2xl font-bold mb-2">Semana da Arte Moderna</h1>
 			<a
 				href="https://drive.google.com/drive/folders/1iw-T6CaDYpxrMwWuVg42sl0lC8AKSlka"
+				target="_blank"
 				className="text-sky-500 font-bold hover:underline"
 			>
 				Veja aqui as imagens do evento na Etec Zona Leste
