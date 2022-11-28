@@ -4,12 +4,25 @@ import TopBar from "../components/TopBar"
 import Footer from "../components/Footer"
 import AdBanner from "../components/AdBannerVertical"
 import Main from "../components/MainCursos"
-export default function Vestibulinho() {
+
+export default function cursosADM() {
 	const courseTypes = [
-		"Habilitação Técnica Profissional",
-		"Ensino Médio com Habilitação Técnica Profissional",
+		"Articulação da Formação Profissional Média e Superior (AMS)",
+		"Integrado ao Médio EJA",
+		"Novotec Habilitação Técnica Profissional",
+		"Novotec Integrado – Habilitação Técnica Profissional em período integral (M-Tec – PI)",
 	]
-	const locals = ["ETEC DA ZONA LESTE", "EXTENSÃO CEU PARQUE SÃO CARLOS"]
+	const locals = ["ETEC DA ZONA LESTE"]
+	const curriculum = [
+		{
+			name: "Habilitação Técnica Profissional",
+			link: "#",
+		},
+		{
+			name: "Ensino Médio com Habilitação Técnica Profissional",
+			link: "$",
+		},
+	]
 	return (
 		<div className="p-0 border-t-4 border-t-sky-700">
 			<div className="flex">
@@ -49,15 +62,9 @@ export default function Vestibulinho() {
 							duration="3 semestres"
 							local={locals}
 							courseType={courseTypes}
-							modalType="Modalidade presencial"
-						>
-							<a href="#" className="text-blue-600">
-								Habilitação Técnica Profissional
-							</a>
-							<a href="#" className="text-blue-600">
-								Ensino Médio com Habilitação Técnica Profissional
-							</a>
-						</Main>
+							modalType="Modalidade online, semipresencial e presencial"
+							curriculum={curriculum}
+						/>
 						<AdBanner />
 					</div>
 				</div>

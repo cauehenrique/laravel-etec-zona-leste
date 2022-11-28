@@ -6,20 +6,23 @@ import Footer from "../components/Footer"
 import AdBanner from "../components/AdBannerVertical"
 import Main from "../components/MainCursos"
 
-export default function Vestibulinho() {
+export default function cursosDS() {
 	const courseTypes = [
 		"Articulação da Formação Profissional Média e Superior (AMS)",
 		"Novotec Habilitação Técnica Profissional",
 		"Novotec Integrado – Habilitação Técnica Profissional em período integral (M-Tec – PI)",
 	]
 	const locals = ["ETEC DA ZONA LESTE"]
-	const curriculum = {
-		name: [
-			"Habilitação Técnica Profissional",
-			"Ensino Médio com Habilitação Técnica Profissional",
-		],
-		link: ["#", "$"],
-	}
+	const curriculum = [
+		{
+			name: "Habilitação Técnica Profissional",
+			link: "#",
+		},
+		{
+			name: "Ensino Médio com Habilitação Técnica Profissional",
+			link: "$",
+		},
+	]
 	return (
 		<div className="p-0 border-t-4 border-t-sky-700">
 			<div className="flex">
@@ -36,9 +39,9 @@ export default function Vestibulinho() {
 							duration="3 semestres"
 							local={locals}
 							courseType={courseTypes}
-							modalType="Modalidade Online e Presencial"
+							modalType="Modalidade online e presencial"
 							curriculum={curriculum}
-						></Main>
+						/>
 						<AdBanner />
 					</div>
 				</div>

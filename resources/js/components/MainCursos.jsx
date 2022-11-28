@@ -14,7 +14,7 @@ export default function MainCursos({
 }) {
 	return (
 		<div className="w-full">
-			<div className="w-full flex justify-between mb-4">
+			<div className="w-full flex justify-between mb-8">
 				<div className="flex flex-col space-y-8 w-1/2">
 					<h1 className="text-2xl font-bold">{title}</h1>
 					<p className="break-normal">{descTitle}</p>
@@ -36,19 +36,13 @@ export default function MainCursos({
 			</div>
 			<div className="flex flex-col">
 				<h1 className="text-2xl font-bold mb-4">Matriz Curricular</h1>
-				{/* {curriculum.map((curr) => {      USANDO O MAP
+				{curriculum.map((curr, index) => {
 					return (
-						<a href="#" className="">
+						<a key={index} href={curr.link} className="text-blue-600">
 							{curr.name}
 						</a>
 					)
-				})} */}
-				{/* <a href="#" className="text-blue-600">       ANTES ERA ISSO AQUI
-                    Habilitação Técnica Profissional
-                </a>
-                <a href="#" className="text-blue-600">
-                    Ensino Médio com Habilitação Técnica Profissional
-                </a> */}
+				})}
 			</div>
 		</div>
 	)

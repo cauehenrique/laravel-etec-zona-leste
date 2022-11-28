@@ -14,6 +14,10 @@ import Calendario from "./pages/calendario"
 import VagasRemanescentes from "./pages/vagasRemanescentes"
 import CursosDS from "./pages/cursosDS"
 import CursosADM from "./pages/cursosADM"
+import CursosCONT from "./pages/cursosCONT"
+import CursosLOG from "./pages/cursosLOG"
+import CursosRH from "./pages/cursosRH"
+import CursosSJ from "./pages/cursosSJ"
 
 export default function App() {
 	return (
@@ -33,6 +37,10 @@ export default function App() {
 				element={<CursosDS />}
 			/>
 			<Route path="/cursos/administracao" element={<CursosADM />} />
+			<Route path="/cursos/recursos-humanos" element={<CursosRH />} />
+			<Route path="/cursos/logistica" element={<CursosLOG />} />
+			<Route path="/cursos/contabilidade" element={<CursosCONT />} />
+			<Route path="/cursos/servicos-juridicos" element={<CursosSJ />} />
 		</Routes>
 	)
 }

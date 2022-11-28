@@ -69,7 +69,12 @@ export default function CursosBox({
 			<div className="flex flex-col items-center text-center">
 				<h1 className="text-lg font-bold">TIPO DE CURSO</h1>
 				{courseType.map((courses) => {
-					return <p>{courses}</p>
+					return (
+						<p>
+							<b>· </b>
+							{courses}
+						</p>
+					)
 				})}{" "}
 				<br />
 				<p>{modalType}</p>
