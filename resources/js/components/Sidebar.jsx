@@ -3,7 +3,6 @@ import SideBarLink from "./SideBarLinks"
 import {
 	BookOpenIcon,
 	PencilSquareIcon,
-	ChatBubbleLeftEllipsisIcon,
 	CalendarIcon,
 	AcademicCapIcon,
 	ClockIcon,
@@ -35,7 +34,7 @@ export default function Sidebar() {
 					title="Vestibulinho"
 				/>
 				<SideBarLink
-					to="/sobreNos"
+					to="/sobre"
 					icon={<AcademicCapIcon className="w-6 h-6" />}
 					title="Sobre Nós"
 				/>
@@ -65,7 +64,7 @@ export default function Sidebar() {
 					title="Departamentos"
 				/>
 				<SideBarLink
-					to="/vagasRemanescentes"
+					to="/vagas-remanescentes"
 					icon={<ClipboardDocumentListIcon className="w-6 h-6" />}
 					title="Vagas Remanescentes"
 				/>

@@ -17,7 +17,7 @@ export default function Footer() {
 				<p className="text-sm font-semibold">
 					Escola Técnica Estadual Zona Leste 2022
 				</p>
-				<p className="text-sm">© 2022 Grupo PW, Inc. All Rights Reserved.</p>
+				<p className="text-sm">© 2022 Cauê, Julia, Camylle, Alexsander. Todos os direitos reservados.</p>
 			</div>
 		</div>
 	)

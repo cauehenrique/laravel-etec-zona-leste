@@ -21,13 +21,13 @@ export default function App() {
 			<Route path="/" element={<Home />} />
 			<Route path="/about" element={<About />} />
 			<Route path="/vestibulinho" element={<Vestibulinho />} />
-			<Route path="/sobreNos" element={<SobreNos />} />
+			<Route path="/sobre" element={<SobreNos />} />
 			<Route path="/horarios" element={<Horarios />} />
 			<Route path="/estagios" element={<Estagios />} />
 			<Route path="/processos" element={<Processos />} />
 			<Route path="/departamentos" element={<Departamentos />} />
 			<Route path="/calendario" element={<Calendario />} />
-			<Route path="/vagasRemanescentes" element={<VagasRemanescentes />} />
+			<Route path="/vagas-remanescentes" element={<VagasRemanescentes />} />
 			<Route
 				path="/cursos/desenvolvimento-de-sistemas"
 				element={<CursosDS />}
