@@ -3,7 +3,6 @@ import React from "react"
 import Sidebar from "../components/Sidebar"
 import TopBar from "../components/TopBar"
 import Footer from "../components/Footer"
-import MainEstagios from "../components/MainEstagios"
 import EstagiosBox from "../components/EstagiosBox"
 
 export default function Estagios() {
@@ -14,7 +13,16 @@ export default function Estagios() {
 				<div className="flex flex-col w-full">
 					<TopBar />
 					<div className="flex flex-col px-12 py-6 w-full mb-12">
-						<MainEstagios />
+						<div className="flex flex-col items-center w-full">
+							<img
+								src="https://espro.org.br/wp-content/uploads/2021/07/KV.png"
+								alt="Estágios"
+								className="h-52 object-contain mb-8"
+							/>
+							<h1 className="font-semibold text-3xl mb-6 md:w-1/2 text-center">
+								VAGAS DE ESTÁGIO
+							</h1>
+						</div>
 						<div className="flex flex-wrap 2xl:mx-auto justify-center items-start">
 							<EstagiosBox
 								color="bg-rose-600"
