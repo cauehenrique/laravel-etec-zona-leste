@@ -68,7 +68,6 @@ export default function Sidebar() {
 					icon={<ClipboardDocumentListIcon className="w-6 h-6" />}
 					title="Vagas Remanescentes"
 				/>
-				<p className="text-[2px] absolute bottom-0 left-0">eu moido OwO</p>
 			</div>
 		</div>
 	)
