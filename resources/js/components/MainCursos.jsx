@@ -1,12 +1,17 @@
 import React from "react"
 
-import { LightBulbIcon } from "@heroicons/react/24/outline"
+import {
+	LightBulbIcon,
+	ClockIcon,
+	CalendarIcon,
+	MapPinIcon,
+} from "@heroicons/react/24/outline"
 
 export default function MainCursos({}) {
 	return (
 		<div className="w-full">
-			<div className="w-full grid grid-cols-2 gap-8 mb-4">
-				<div className="flex flex-col space-y-8">
+			<div className="w-full flex justify-between mb-4">
+				<div className="flex flex-col space-y-8 w-1/2">
 					<h1 className="text-2xl font-bold">Administração</h1>
 					<p className="break-normal">
 						Como funcionam as organizações, desde empresas privadas até ONGs,
@@ -23,17 +28,62 @@ export default function MainCursos({}) {
 						para o futuro.
 					</p>
 				</div>
-				<div className="px-4 py-6 border rounded-lg shadow-sm flex flex-col w-fit">
-					<div className="flex space-x-8">
+				<div className="px-4 py-6 mr-2 border space-y-4 rounded-lg shadow-sm flex flex-col w-1/3">
+					<div className="flex">
 						<div className="p-3 rounded-lg bg-emerald-600">
 							<LightBulbIcon className="h-8 w-8 text-white" />
 						</div>
-						<div className="flex items-center mx-auto">
+						<div className="flex w-full px-6 justify-center">
 							<div className="flex flex-col justify-center items-center">
 								<h1 className="text-md font-bold">EIXO TECNOLÓGICO</h1>
 								<p className="">Gestão e Negócios</p>
 							</div>
 						</div>
+					</div>
+					<div className="flex">
+						<div className="p-3 rounded-lg bg-indigo-600">
+							<ClockIcon className="h-8 w-8 text-white" />
+						</div>
+						<div className="flex w-full px-6 justify-center">
+							<div className="flex flex-col justify-center items-center">
+								<h1 className="text-md font-bold">CARGA HORÁRIA</h1>
+								<p className="">1200 horas</p>
+							</div>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="p-3 rounded-lg bg-rose-600">
+							<CalendarIcon className="h-8 w-8 text-white" />
+						</div>
+						<div className="flex w-full px-6 justify-center">
+							<div className="flex flex-col justify-center items-center">
+								<h1 className="text-md font-bold">DURAÇÃO</h1>
+								<p className="">3 semestres</p>
+							</div>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="p-3 rounded-lg bg-emerald-600 w-fit h-fit">
+							<MapPinIcon className="h-8 w-8 text-white" />
+						</div>
+						<div className="flex flex-wrap w-full px-6 justify-center">
+							<div className="flex flex-col justify-center items-center text-center">
+								<h1 className="text-md font-bold">LOCALIZAÇÃO</h1>
+								<p>
+									<b>· </b>ETEC DA ZONA LESTE
+								</p>
+								<p>
+									<b>· </b>EXTENSÃO CEU PARQUE SÃO CARLOS
+								</p>
+							</div>
+						</div>
+					</div>
+					<div className="flex flex-col items-center text-center">
+						<h1 className="text-lg font-bold">TIPO DE CURSO</h1>
+						<p className="">Habilitação Técnica Profissional</p>
+						<p>Ensino Médio com Habilitação Técnica Profissional</p> <br />{" "}
+						<br />
+						<p>Modalidade Presencial</p>
 					</div>
 				</div>
 			</div>
