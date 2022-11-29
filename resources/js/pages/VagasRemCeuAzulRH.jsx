@@ -17,7 +17,7 @@ export default function VagasRemanescentesCeuAzulRH() {
 						<Main
 							course="Curso Técnico em Recursos Humanos, extensão Ceu Azul"
 							moduleCourse="2º e 3º módulo / noite"
-							editaL="06"
+							edital="06"
 						/>
 						<AdBanner />
 					</div>

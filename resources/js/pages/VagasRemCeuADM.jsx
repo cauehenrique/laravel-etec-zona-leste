@@ -17,7 +17,7 @@ export default function VagasRemanescentesCeuADM() {
 						<Main
 							course="Curso Técnico em Administração, extensão Ceu Parque São Carlos"
 							moduleCourse="2º e 3º módulo / noite"
-							editaL="08"
+							edital="08"
 						/>
 						<AdBanner />
 					</div>

@@ -29,12 +29,12 @@ export default function cursosCONT() {
 							title="Contabilidade"
 							descTitle="Matemática e língua portuguesa são disciplinas importantes para entender a contabilidade, que é a ciência responsável por organizar as contas de uma empresa e registrar seus bens patrimoniais (como prédios, veículos e máquinas, entre outros). Além da matemática básica, que serve como ferramenta para calcular o lucro ou o prejuízo de uma empresa, o estudante aprenderá matemática financeira, utilizada para operações de financiamento e cálculo de taxas de juros, por exemplo. O aluno também vai conhecer quais são as regras da contabilidade e todas as leis que estabelecem o que as empresas podem fazer e quais impostos devem pagar. Na área de Informática, o estudante vai aprender a fazer planilhas e a usar programas de computador específicos para a contabilidade."
 							descActingArea="Ajuda na preparação dos documentos necessários para a abertura ou o encerramento de uma empresa. Calcula os tributos (impostos, taxas e contribuições) que uma empresa deve pagar ao governo. Emite notas fiscais, gera boletos bancários e guias para o pagamento dos tributos. Registra os bens comprados e vendidos pela empresa. Elabora planilhas de controle de bens ou de estoque de mercadorias e produtos. Organiza e arquiva documentos. Auxilia na produção de relatórios diversos referentes às contas da empresa, ao cálculo do lucro ou prejuízo, do desempenho de vendas, das dívidas e dos demais demonstrativos de resultados."
-							techAxle="Gestão e Negócios"
+							area="Gestão e Negócios"
 							workload="800 horas"
 							duration="2 semestres"
 							local={locals}
 							courseType={courseTypes}
-							modalType="Modalidade presencial"
+							mode="Modalidade presencial"
 							curriculum={curriculum}
 						/>
 						<AdBanner />

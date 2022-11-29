@@ -55,12 +55,12 @@ export default function cursosADM() {
                             contratação e demissão de pessoal. Em qualquer área, pode atender
                             clientes e fornecedores e redigir documentos, como e-mails, memorandos
                             e atas."
-							techAxle="Gestão e Negócios"
+							area="Gestão e Negócios"
 							workload="1200 horas"
 							duration="3 semestres"
 							local={locals}
 							courseType={courseTypes}
-							modalType="Modalidade online, semipresencial e presencial"
+							mode="Modalidade online, semipresencial e presencial"
 							curriculum={curriculum}
 						/>
 						<AdBanner />

@@ -34,12 +34,12 @@ export default function cursosDS() {
 							title="Desenvolvimento de Sistemas"
 							descTitle="É o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados."
 							descActingArea="Empresas e departamentos de desenvolvimento de sistemas em organizações governamentais e não governamentais, podendo também atuar como profissional autônomo."
-							techAxle="Informação e Comunicação"
+							area="Informação e Comunicação"
 							workload="1200 horas"
 							duration="3 semestres"
 							local={locals}
 							courseType={courseTypes}
-							modalType="Modalidade online e presencial"
+							mode="Modalidade online e presencial"
 							curriculum={curriculum}
 						/>
 						<AdBanner />

@@ -4,12 +4,12 @@ export default function MainCursos({
 	title,
 	descTitle,
 	descActingArea,
-	techAxle,
+	area,
 	workload,
 	duration,
 	local,
 	courseType,
-	modalType,
+	mode,
 	curriculum,
 }) {
 	return (
@@ -21,12 +21,12 @@ export default function MainCursos({
 				</div>
 				<div className="w-3/4 flex justify-center">
 					<CursosBox
-						techAxle={techAxle}
+						area={area}
 						workload={workload}
 						duration={duration}
 						local={local}
 						courseType={courseType}
-						modalType={modalType}
+						mode={mode}
 					/>
 				</div>
 			</div>

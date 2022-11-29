@@ -1,7 +1,7 @@
 import React from "react"
 import { DocumentTextIcon } from "@heroicons/react/24/outline"
 
-export default function EstagiosBox({ color, title, description }) {
+export default function EstagiosBox({ color, title, requirements }) {
 	return (
 		<div className="transition duration-150 ease-out flex justify-center items-center hover:ease-in">
 			<div className="relative p-8">
@@ -17,7 +17,11 @@ export default function EstagiosBox({ color, title, description }) {
 					<div className="flex h-full">
 						<p className="text-md break-all text-justify">
 							<p className="font-semibold">Exigências: </p>
-							{description}
+							<ul className="list-disc">
+								{requirements.map((req, index) => {
+									return <li key={index}>{req}</li>
+								})}
+							</ul>
 						</p>
 					</div>
 				</div>

@@ -17,7 +17,7 @@ export default function VagasRemanescentesADM() {
 						<Main
 							course="Curso Técnico em Administração"
 							moduleCourse="2º e 3º módulo / manhã e noite"
-							edita="01"
+							edital="01"
 						/>
 						<AdBanner />
 					</div>

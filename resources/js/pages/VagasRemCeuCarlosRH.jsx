@@ -17,7 +17,7 @@ export default function VagasRemanescentesCeuCarlosRH() {
 						<Main
 							course="Curso Técnico em Recursos Humanos, extensão Parque São Carlos"
 							moduleCourse="2º e 3º módulo / noite"
-							editaL="07"
+							edital="07"
 						/>
 						<AdBanner />
 					</div>

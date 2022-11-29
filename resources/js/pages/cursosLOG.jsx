@@ -34,12 +34,12 @@ export default function cursosLOG() {
 							title="Logística"
 							descTitle="Logística é o planejamento do caminho feito por um produto ou serviço até chegar ao cliente de forma organizada, rápida e econômica. Para planejar esse caminho, o estudante vai precisar de conhecimentos de matemática, geografia e física. O aluno aprenderá sobre os processos de compra de matérias-primas, incluindo a escolha dos fornecedores, o registro dos pedidos de compra e o recebimento dos materiais adquiridos. O estudante vai aprender também como se deve movimentar as cargas e os produtos dentro de um estoque para decidir se utilizará, por exemplo, um carrinho ou uma empilhadeira, e como se deve armazenar cada tipo de produto e por quanto tempo. Vai estudar ainda sobre a entrega das mercadorias compradas pelos clientes: como organizar a carga para o transporte, qual a embalagem mais adequada (em caixas de papelão ou madeira, em páletes ou contêineres), qual é o tipo de transporte mais adequado para o produto e para o cliente (caminhões, embarcações, trem ou avião), e quais são as principais rotas que podem ser utilizadas. Além disso, o estudante aprenderá sobre os custos envolvidos em cada uma das atividades."
 							descActingArea="Pesquisa preços com fornecedores para elaborar orçamentos de compra de produtos e de transporte de mercadorias; controla a entrada e a saída de mercadorias do estoque; confere os produtos recebidos de acordo com a nota fiscal, verificando defeitos, prazos de validades, além de resolver os procedimentos para a devolução dos itens com problema; separa no estoque as mercadorias que foram compradas para serem despachadas; dimensiona as quantidades de cargas e de produtos que cabem em cada tipo de transporte (moto, caminhão, navio, avião) e em cada local de estoque; pesquisa e sugere opções de transporte e rotas conforme a carga; realiza o rastreamento do produto ou mercadoria que está sendo transportado e acompanha o fluxo de entrega para alimentar os bancos de dados da empresa."
-							techAxle="Gestão e Negócios"
+							area="Gestão e Negócios"
 							workload="1200 horas"
 							duration="3 semestres"
 							local={locals}
 							courseType={courseTypes}
-							modalType="Modalidade presencial"
+							mode="Modalidade presencial"
 							curriculum={curriculum}
 						/>
 						<AdBanner />

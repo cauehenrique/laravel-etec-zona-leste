@@ -11,7 +11,7 @@ export default function CursosBox({
 	duration,
 	local,
 	courseType,
-	modalType,
+	mode,
 }) {
 	return (
 		<div className="px-4 py-6 mr-2 border space-y-4 rounded-xl shadow-sm flex flex-col w-7/12 bg-gray-50">
@@ -55,14 +55,11 @@ export default function CursosBox({
 				<div className="flex flex-wrap w-full px-6 justify-center">
 					<div className="flex flex-col justify-center items-center text-center">
 						<h1 className="text-md font-bold">LOCALIZAÇÃO</h1>
-						{local.map((loc) => {
-							return (
-								<p>
-									<b>· </b>
-									{loc}
-								</p>
-							)
-						})}
+						<ul className="list-disc">
+							{local.map((loc) => {
+								return <li>{loc}</li>
+							})}
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -77,7 +74,7 @@ export default function CursosBox({
 					)
 				})}{" "}
 				<br />
-				<p>{modalType}</p>
+				<p>{mode}</p>
 			</div>
 			{/* <div className="flex">
                 <div className="p-3 rounded-lg bg-emerald-600">
