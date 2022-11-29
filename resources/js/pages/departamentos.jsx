@@ -158,6 +158,10 @@ export default function Departamentos() {
 													description="Rogério Bezerra Costa"
 												/>
 												<DepartamentosSubBox
+													title="Coordenador NOVOTEC Desenvolvimento de Sistemas"
+													description="Jeferson Roberto de Lima"
+												/>
+												<DepartamentosSubBox
 													title="Coordenador NOVOTEC Logística"
 													description="Leandro Pedroza de Nóbrega"
 												/>

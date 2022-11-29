@@ -10,6 +10,7 @@ export default function TopBar() {
 			<div className="flex justify-center w-full">
 				<a
 					href="https://www.vestibulinhoetec.com.br/home/"
+					target="_blank"
 					className="text-sky-600"
 				>
 					Acesse o site do vestibulinho clicando aqui!

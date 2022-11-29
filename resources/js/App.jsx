@@ -11,13 +11,20 @@ import Estagios from "./pages/estagios"
 import Processos from "./pages/processos"
 import Departamentos from "./pages/departamentos"
 import Calendario from "./pages/calendario"
-import VagasRemanescentes from "./pages/vagasRemanescentes"
 import CursosDS from "./pages/cursosDS"
 import CursosADM from "./pages/cursosADM"
 import CursosCONT from "./pages/cursosCONT"
 import CursosLOG from "./pages/cursosLOG"
 import CursosRH from "./pages/cursosRH"
 import CursosSJ from "./pages/cursosSJ"
+import VagasRemanescentesADM from "./pages/vagasRemanescentesADM"
+import VagasRemanescentesCONT from "./pages/vagasRemanescentesCONT"
+import VagasRemanescentesDS from "./pages/vagasRemanescentesDS"
+import VagasRemanescentesLOG from "./pages/vagasRemanescentesLOG"
+import VagasRemanescentesSJ from "./pages/vagasRemanescentesSJ"
+import VagasRemanescentesCeuCarlosRH from "./pages/VagasRemCeuCarlosRH"
+import VagasRemanescentesCeuADM from "./pages/VagasRemCeuADM"
+import VagasRemanescentesCeuAzulRH from "./pages/VagasRemCeuAzulRH"
 
 export default function App() {
 	return (
@@ -31,7 +38,6 @@ export default function App() {
 			<Route path="/processos" element={<Processos />} />
 			<Route path="/departamentos" element={<Departamentos />} />
 			<Route path="/calendario" element={<Calendario />} />
-			<Route path="/vagas-remanescentes" element={<VagasRemanescentes />} />
 			<Route
 				path="/cursos/desenvolvimento-de-sistemas"
 				element={<CursosDS />}
@@ -41,6 +47,38 @@ export default function App() {
 			<Route path="/cursos/logistica" element={<CursosLOG />} />
 			<Route path="/cursos/contabilidade" element={<CursosCONT />} />
 			<Route path="/cursos/servicos-juridicos" element={<CursosSJ />} />
+			<Route
+				path="/vagas-remanescentes/administracao"
+				element={<VagasRemanescentesADM />}
+			/>
+			<Route
+				path="/vagas-remanescentes/contabilidade"
+				element={<VagasRemanescentesCONT />}
+			/>
+			<Route
+				path="/vagas-remanescentes/desenvolvimento-de-sistemas"
+				element={<VagasRemanescentesDS />}
+			/>
+			<Route
+				path="/vagas-remanescentes/logistica"
+				element={<VagasRemanescentesLOG />}
+			/>
+			<Route
+				path="/vagas-remanescentes/servicos-juridicos"
+				element={<VagasRemanescentesSJ />}
+			/>
+			<Route
+				path="/vagas-remanescentes/ceu-sao-carlos-administracao"
+				element={<VagasRemanescentesCeuADM />}
+			/>
+			<Route
+				path="/vagas-remanescentes/ceu-azul-rh"
+				element={<VagasRemanescentesCeuAzulRH />}
+			/>
+			<Route
+				path="/vagas-remanescentes/ceu-sao-carlos-rh"
+				element={<VagasRemanescentesCeuCarlosRH />}
+			/>
 		</Routes>
 	)
 }

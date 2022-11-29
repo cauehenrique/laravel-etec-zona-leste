@@ -8,9 +8,7 @@ import Main from "../components/MainCursos"
 export default function cursosADM() {
 	const courseTypes = [
 		"Articulação da Formação Profissional Média e Superior (AMS)",
-		"Integrado ao Médio EJA",
 		"Novotec Habilitação Técnica Profissional",
-		"Novotec Integrado – Habilitação Técnica Profissional em período integral (M-Tec – PI)",
 	]
 	const locals = ["ETEC DA ZONA LESTE"]
 	const curriculum = [
