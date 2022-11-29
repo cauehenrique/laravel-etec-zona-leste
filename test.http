@@ -1,11 +1,20 @@
-GET http://localhost:8000/api/navbar-anchors
+GET http://localhost:8000/api/course
 ###
-GET http://localhost:8000/api/navbar-anchors/2
+GET http://localhost:8000/api/course/1
 ###
-POST http://localhost:8000/api/navbar-anchors
+POST http://localhost:8000/api/course
 Content-Type: application/json
 
 {
-    "title": "Alekinho",
-    "href": "oxi doido"
+    "icon_id": 0,
+    "name": "lorem ipsum",
+    "page_url": "lorem ipsum",
+    "description": "lorem ipsum",
+    "occupation_area": "lorem ipsum",
+    "area": "lorem ipsum",
+    "workload": "lorem ipsum",
+    "duration": "lorem ipsum",
+    "local": "lorem ipsum",
+    "course_types": "lorem ipsum",
+    "mode": "lorem ipsum"
 }
