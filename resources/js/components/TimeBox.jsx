@@ -2,7 +2,7 @@ import React from "react"
 
 export default function TimeBox({ title, caption, caption2 }) {
 	return (
-		<div className="px-12 py-3 border-2 border-gray-400 rounded-xl flex flex-col items-center">
+		<div className="px-12 py-3 border border-black rounded-xl flex flex-col items-center">
 			<h1 className="text-md font-bold mb-2">{title}</h1>
 			<div className="h-full flex flex-col justify-center">
 				<p>{caption}</p>
