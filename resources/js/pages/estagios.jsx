@@ -13,7 +13,7 @@ export default function Estagios() {
 			requirements: [
 				"1° Módulo completo",
 				"17-21 anos",
-				"Morar na região AAAAA",
+				"Morar na região de Itaquera",
 			],
 		},
 
@@ -23,7 +23,7 @@ export default function Estagios() {
 			requirements: [
 				"1° Módulo completo",
 				"17-21 anos",
-				"Morar na região xxxxx",
+				"Morar na região de Guaianazes",
 			],
 		},
 		{
@@ -32,7 +32,7 @@ export default function Estagios() {
 			requirements: [
 				"1° Módulo completo",
 				"17-21 anos",
-				"Morar na região xxxxx",
+				"Morar na região da Penha",
 			],
 		},
 		{
@@ -41,7 +41,7 @@ export default function Estagios() {
 			requirements: [
 				"1° Módulo completo",
 				"17-21 anos",
-				"Morar na região xxxxx",
+				"Morar na região de Itaquera",
 			],
 		},
 		{
@@ -50,7 +50,7 @@ export default function Estagios() {
 			requirements: [
 				"1° Módulo completo",
 				"17-21 anos",
-				"Morar na região xxxxx",
+				"Morar na região do Artur Alvim",
 			],
 		},
 	]

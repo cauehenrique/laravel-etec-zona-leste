@@ -17,7 +17,7 @@ export default function EstagiosBox({ color, title, requirements }) {
 					<div className="flex h-full">
 						<p className="text-md break-all text-justify">
 							<p className="font-semibold">Exigências: </p>
-							<ul className="list-disc">
+							<ul className="list-disc pl-6">
 								{requirements.map((req, index) => {
 									return <li key={index}>{req}</li>
 								})}

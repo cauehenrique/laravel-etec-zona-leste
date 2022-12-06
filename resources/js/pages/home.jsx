@@ -18,7 +18,7 @@ export default function HomePage() {
 	}, [])
 
 	return (
-		<div className="p-0 border-t-4 border-t-sky-700">
+		<div className="p-0 border-t-4 border-t-sky-700 h-full">
 			<div className="flex">
 				<Sidebar />
 				<div className="flex flex-col w-full">

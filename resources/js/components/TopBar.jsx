@@ -19,21 +19,21 @@ export default function TopBar() {
 			<div className="space-x-2 flex">
 				<a
 					target="_blank"
-					href="https://www.instagram.com/"
+					href="https://www.instagram.com/eteczonalesteoficial/"
 					className="bg-yellow-200 hover:bg-yellow-300 rounded-full p-1"
 				>
 					<InstagramIcon />
 				</a>
 				<a
 					target="_blank"
-					href="https://www.youtube.com/"
+					href="https://www.youtube.com/@etecdazonaleste2949"
 					className="bg-red-200 hover:bg-red-300 rounded-full p-1"
 				>
 					<YoutubeIcon />
 				</a>
 				<a
 					target="_blank"
-					href="https://www.facebook.com/"
+					href="https://web.facebook.com/Eteczonalesteoficial"
 					className="bg-sky-200 hover:bg-sky-300 rounded-full p-1"
 				>
 					<FacebookIcon />
