@@ -5,12 +5,13 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/course', function () {
-    return Course::all();
+    $courses = Course::all();
+    return response($courses, 200);
 });
 
 Route::get('/course/{id}', function (string $id) {
     $course = Course::find(intval($id));
-    return $course;
+    return response($course, 200);
 });
 
 Route::post('/course', function (Request $request) {
@@ -28,5 +29,15 @@ Route::post('/course', function (Request $request) {
         'mode' => $request->mode
     ]);
 
-    return $course;
+    return response($course, 200);
+});
+
+Route::delete('/course/{id}', function (int $id) {
+    $course = Course::find($id);
+
+    if ($course == null) return response('Course [' . $id . '] not found!', 404);
+    else {
+        $course->delete();
+        return response('Course has been deleted successfully', 200);
+    }
 });
