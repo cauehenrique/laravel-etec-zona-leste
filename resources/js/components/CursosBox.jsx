@@ -65,72 +65,17 @@ export default function CursosBox({
 			</div>
 			<div className="flex flex-col items-center text-center">
 				<h1 className="text-lg font-bold">TIPO DE CURSO</h1>
-				{courseType.map((courses) => {
+				{courseType.map((courses, index) => {
 					return (
-						<p>
+						<p key={index}>
 							<b>· </b>
 							{courses}
 						</p>
 					)
-				})}{" "}
+				})}
 				<br />
 				<p>{mode}</p>
 			</div>
-			{/* <div className="flex">
-                <div className="p-3 rounded-lg bg-emerald-600">
-                    <LightBulbIcon className="h-8 w-8 text-white" />
-                </div>
-                <div className="flex w-full px-6 justify-center">
-                    <div className="flex flex-col justify-center items-center">
-                        <h1 className="text-md font-bold">EIXO TECNOLÓGICO</h1>
-                        <p className="">Gestão e Negócios</p>
-                    </div>
-                </div>
-            </div>
-            <div className="flex">
-                <div className="p-3 rounded-lg bg-indigo-600">
-                    <ClockIcon className="h-8 w-8 text-white" />
-                </div>
-                <div className="flex w-full px-6 justify-center">
-                    <div className="flex flex-col justify-center items-center">
-                        <h1 className="text-md font-bold">CARGA HORÁRIA</h1>
-                        <p className="">1200 horas</p>
-                    </div>
-                </div>
-            </div>
-            <div className="flex">
-                <div className="p-3 rounded-lg bg-rose-600">
-                    <CalendarIcon className="h-8 w-8 text-white" />
-                </div>
-                <div className="flex w-full px-6 justify-center">
-                    <div className="flex flex-col justify-center items-center">
-                        <h1 className="text-md font-bold">DURAÇÃO</h1>
-                        <p className="">3 semestres</p>
-                    </div>
-                </div>
-            </div>
-            <div className="flex">
-                <div className="p-3 rounded-lg bg-emerald-600 w-fit h-fit">
-                    <MapPinIcon className="h-8 w-8 text-white" />
-                </div>
-                <div className="flex flex-wrap w-full px-6 justify-center">
-                    <div className="flex flex-col justify-center items-center text-center">
-                        <h1 className="text-md font-bold">LOCALIZAÇÃO</h1>
-                        <p>
-                            <b>· </b>ETEC DA ZONA LESTE
-                        </p>
-                        <p>
-                            <b>· </b>EXTENSÃO CEU PARQUE SÃO CARLOS
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className="flex flex-col items-center text-center">
-                <h1 className="text-lg font-bold">TIPO DE CURSO</h1>
-                <p className="">Habilitação Técnica Profissional</p>
-                <p>Ensino Médio com Habilitação Técnica Profissional</p> <br />{" "}
-                <p>Modalidade Presencial</p>
-            </div> */}
 		</div>
 	)
 }

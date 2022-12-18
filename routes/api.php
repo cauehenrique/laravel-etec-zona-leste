@@ -4,6 +4,14 @@ use App\Models\Course;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+Route::post('/admin-auth', function (Request $request) {
+    $admin_key = getenv('ADMIN_KEY');
+    $authorization = $request->header('Authorization');
+
+    if ($authorization != $admin_key) return response(null, 401);
+    else return response(null, 200);
+});
+
 Route::get('/course', function () {
     $courses = Course::all();
     return response($courses, 200);
@@ -16,9 +24,7 @@ Route::get('/course/{id}', function (string $id) {
 
 Route::post('/course', function (Request $request) {
     $course = Course::create([
-        'icon_id' => $request->icon_id,
         'name' => $request->name,
-        'page_url' => $request->page_url,
         'description' => $request->description,
         'occupation_area' => $request->occupation_area,
         'area' => $request->area,

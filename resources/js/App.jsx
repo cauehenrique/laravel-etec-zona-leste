@@ -26,6 +26,8 @@ import VagasRemanescentesCeuCarlosRH from "./pages/VagasRemCeuCarlosRH"
 import VagasRemanescentesCeuADM from "./pages/VagasRemCeuADM"
 import VagasRemanescentesCeuAzulRH from "./pages/VagasRemCeuAzulRH"
 
+import AdminCoursePage from "./pages/admin/course"
+
 export default function App() {
 	return (
 		<Routes>
@@ -79,6 +81,9 @@ export default function App() {
 				path="/vagas-remanescentes/ceu-sao-carlos-rh"
 				element={<VagasRemanescentesCeuCarlosRH />}
 			/>
+			<Route path="/admin">
+				<Route path="course" element={<AdminCoursePage />} />
+			</Route>
 		</Routes>
 	)
 }

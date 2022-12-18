@@ -10,7 +10,7 @@ export default function Map() {
 					width="100%"
 					height="350"
 					className="rounded-[20px]"
-					allowfullscreen=""
+					allowFullScreen={false}
 					loading="lazy"
 					referrerPolicy="no-referrer-when-downgrade"
 				></iframe>

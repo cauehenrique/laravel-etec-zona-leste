@@ -1,25 +1,46 @@
-import React from "react"
-import SideBarLink from "./SideBarLinks"
-import SideBarDropdown from "./SideBarDropdown"
+import axios from "axios"
+import { useEffect, useState } from "react"
+import slugify from "slugify"
+
 import {
-	BookOpenIcon,
-	PencilSquareIcon,
-	CalendarIcon,
 	AcademicCapIcon,
-	ClockIcon,
+	BookOpenIcon,
 	BriefcaseIcon,
-	ClipboardDocumentCheckIcon,
-	UserGroupIcon,
-	ClipboardDocumentListIcon,
 	BuildingOfficeIcon,
-	CommandLineIcon,
-	Square3Stack3DIcon,
 	CalculatorIcon,
+	CalendarIcon,
+	ClipboardDocumentCheckIcon,
+	ClipboardDocumentListIcon,
+	ClockIcon,
+	CommandLineIcon,
+	PencilSquareIcon,
 	ScaleIcon,
+	Square3Stack3DIcon,
+	UserGroupIcon,
 } from "@heroicons/react/24/outline"
 import LogoEtec from "../images/logo-etec.png"
+import Loading from "./Loading"
+import SideBarDropdown from "./SideBarDropdown"
+import SideBarLink from "./SideBarLinks"
+import SidebarRawLink from "./SidebarRawLink"
+
+type CourseResponse = {
+	id: number
+	name: string
+}
 
 export default function Sidebar() {
+	const [courses, setCourses] = useState<CourseResponse[]>()
+
+	useEffect(() => {
+		async function fetchCourses() {
+			const { data } = await axios.get<CourseResponse[]>("/api/course")
+			setCourses(data)
+		}
+
+		fetchCourses()
+	}, [])
+
 	return (
 		<div className="h-100% flex flex-col divide-y border-r border-zinc-200">
 			<a href="/" className="w-fit border-b border-zinc-200">
@@ -33,37 +54,16 @@ export default function Sidebar() {
 					icon={<BookOpenIcon className="w-6 h-6" />}
 					title="Cursos"
 				>
-					<div className="bg-blue-100 rounded-lg p-1 mt-1">
-						<SideBarLink
-							to="/cursos/administracao"
-							icon={<BuildingOfficeIcon className="w-6 h-6" />}
-							title="Administração"
-						/>
-						<SideBarLink
-							to="/cursos/desenvolvimento-de-sistemas"
-							icon={<CommandLineIcon className="w-6 h-6" />}
-							title="Desenv. de Sistemas"
-						/>
-						<SideBarLink
-							to="/cursos/logistica"
-							icon={<Square3Stack3DIcon className="w-6 h-6" />}
-							title="Logística"
-						/>
-						<SideBarLink
-							to="/cursos/contabilidade"
-							icon={<CalculatorIcon className="w-6 h-6" />}
-							title="Contabilidade"
-						/>
-						<SideBarLink
-							to="/cursos/recursos-humanos"
-							icon={<BriefcaseIcon className="w-6 h-6" />}
-							title="Recursos Humanos"
-						/>
-						<SideBarLink
-							to="/cursos/servicos-juridicos"
-							icon={<ScaleIcon className="w-6 h-6" />}
-							title="Serviços Jurídicos"
-						/>
+					<div className="bg-blue-100 rounded-lg my-1">
+						{!courses && <Loading className="text-blue-500" />}
+						{courses &&
+							courses.map((course) => (
+								<SidebarRawLink
+									key={course.id}
+									to={`/cursos/${slugify(course.name.toLowerCase())}`}
+									title={course.name}
+								/>
+							))}
 					</div>
 				</SideBarDropdown>
 				<SideBarLink

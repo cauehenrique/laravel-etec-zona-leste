@@ -20,7 +20,7 @@ export default function SideBarDropdown({
 		<div>
 			<div
 				onClick={() => setOpen((value) => !value)}
-				className="font-semibold p-2 flex justify-between items-center rounded-md hover:bg-blue-200 hover:text-sky-800 select-none cursor-pointer"
+				className="font-semibold p-2 flex justify-between items-center rounded-md hover:bg-blue-100 hover:text-sky-800 select-none cursor-pointer"
 			>
 				<div className="flex space-x-2">
 					{icon}

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input {
+	@apply flex flex-col;
+}
+
+.input span {
+	@apply font-semibold mb-1;
+}
+
+.input input {
+	@apply border border-neutral-300 px-3 py-2 rounded-md outline-cyan-700;
+}
+
+.button {
+	@apply px-3 py-2 font-bold rounded-md disabled:opacity-70 disabled:cursor-not-allowed;
+}
+
+.button-primary {
+	@apply bg-cyan-700 hover:bg-cyan-600 disabled:bg-cyan-700 text-white;
+}

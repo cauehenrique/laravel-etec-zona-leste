@@ -10,11 +10,9 @@ return new class extends Migration
     {
         Schema::create('course', function (Blueprint $table) {
             $table->id();
-            $table->integer('icon_id');
             $table->string('name');
-            $table->string('page_url');
-            $table->string('description');
-            $table->string('occupation_area');
+            $table->longText('description');
+            $table->longText('occupation_area');
             $table->string('area');
             $table->string('workload');
             $table->string('duration');
